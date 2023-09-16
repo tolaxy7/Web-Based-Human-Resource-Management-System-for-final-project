@@ -1,0 +1,59 @@
+/* Set box-sizing to border-box to include padding and border in element's total width and height */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Set body margin and padding to 0 to remove default spacing */
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set form width and center it horizontally */
+  form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Set form label and input display to block and add some margin and padding */
+  form label,
+  form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  /* Set form input width to 100% to fill the container */
+  form input {
+    width: 100%;
+  }
+  
+  /* Set form input border and border-radius */
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="email"],
+  form input[type="tel"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Set form input focus outline and background color */
+  form input:focus {
+    outline: none;
+    background-color: #f2f2f2;
+  }
+  
+  /* Set form submit button style */
+  form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Set form submit button hover style */
+  form input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }

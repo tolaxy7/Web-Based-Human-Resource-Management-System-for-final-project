@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <style>
+ /* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Header styles */
+#admin-wrapper {
+  background-color: #333;
+  color: #fff;
+}
+
+#admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #4e1d1d;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropbtn {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Additional features */
+nav a.active {
+  background-color: #ffd700;
+  color: #333;
+}
+
+nav a.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+nav a.btn {
+  background-color: #ffd700;
+  color: #333;
+  border-radius: 0.25rem;
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+nav a.btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  #admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+  }
+
+  nav a {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .dropdown {
+    position: static;
+  }
+
+  .dropdown-content {
+    position: static;
+    display: none;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    box-shadow: none;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+/* Horizontal layout */
+@media screen and (min-width: 769px) {
+  #admin-header {
+    flex-direction: row;
+    justify-content: flex-start; /* Changed to flex-start */
+  }
+
+  nav {
+    margin-left: 1rem; /* Added margin */
+  }
+
+  .dropdown-content {
+    left: 0; /* Changed to left */
+  }
+  /* ... Previous CSS code ... */
+
+/* Additional features */
+nav a.active,
+.dropdown:hover .dropbtn {
+  background-color: #ffd700;
+  color: #333;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffd700;
+  color: #333;
+}
+
+}
+
+    </style>
+</head>
+<body>
+  <div id="admin-wrapper">
+    <header id="admin-header">
+        <nav>
+          <a href="home.php">Home</a>
+          <a   href="empdetail.php">Employees</a>
+          <a   href="vacancies.php">Vacancies</a>
+          <div class="dropdown">
+            <button class="dropbtn">Users</button>
+            <div class="dropdown-content">
+              <a   href="register.php">Create User</a>
+              <a   href="search_employee.php">Search Users</a>
+              <a   href="users_list.php">Update or remove User</a>          
+            </div>
+          </div>
+          <a   href="scheduleview.php">Schedule</a>
+          <a   href="feedback_view.php">Feedback</a>
+          <a href="report.php">Report</a>
+          <a   href="profile.php">Profile</a>
+          <div class="dropdown">
+            <button class="dropbtn">More</button>
+            <div class="dropdown-content">
+              <a   href="#">About Us</a>
+              <a   href="contactus.php">Contact Us</a>
+            </div>
+          </div>
+          <a   href="logout.php">Logout</a>
+        </nav>
+      </header>
+    </div>
+</body>
+</html>

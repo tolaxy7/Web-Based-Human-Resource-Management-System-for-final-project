@@ -1,0 +1,4 @@
+{
+    "CodeGPT.maxTokens": 80000,
+    "CodeGPT.model": "text-ada-001"
+}

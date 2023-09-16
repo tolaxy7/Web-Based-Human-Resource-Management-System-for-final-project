@@ -1,0 +1,104 @@
+/* Navigation */
+.navbar {
+    background-color: #343a40;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-left: 1rem;
+  }
+  .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Page Content */
+  .container {
+    max-width: 1200px;
+  }
+  .my-5 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .mb-5 {
+    margin-bottom: 5rem;
+  }
+  .card {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+  }
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+  }
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .card-text {
+    margin-bottom: 1rem;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+  }
+  .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    color: #fff;
+  }
+  .btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+    color: #fff;
+  }
+  
+  /* Contact Section */
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  .py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .form-control {
+    border-radius: 0;
+    border-color: #ced4da;
+  }
+  .form-control:focus {
+    border-color: #80bdff;
+    box-shadow: none;
+  }
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    color: #fff;
+  }
+  
+  /* Footer */
+  .text-white {
+    color: #fff !important;
+  }
+  .py-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  

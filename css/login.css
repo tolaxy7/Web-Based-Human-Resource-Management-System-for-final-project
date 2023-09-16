@@ -1,0 +1,77 @@
+body {
+    background-image: url("path/to/background-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.login-container input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.login-container p.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.login-container .forgot-password {
+    margin-top: 10px;
+}
+
+.login-container .social-login {
+    margin-top: 20px;
+}
+
+.login-container .social-login a {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.login-container .register-link {
+    margin-top: 20px;
+}

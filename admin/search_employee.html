@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Search Employee</title>
+  </head>
+  <body>
+    <h1>Search Employee</h1>
+    <form action="search_employee.php" method="GET">
+      <label for="search_type">Search by:</label>
+      <select id="search_type" name="search_type">
+        <option value="id">ID</option>
+        <option value="name">Name</option>
+      </select>
+      <br>
+      <label for="search_term">Search term:</label>
+      <input type="text" id="search_term" name="search_term">
+      <br>
+      <input type="submit" value="Search">
+    </form>
+  </body>
+</html>

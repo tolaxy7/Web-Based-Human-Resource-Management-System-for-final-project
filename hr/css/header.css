@@ -1,0 +1,136 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover > a {
+    background-color: #555;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    padding: 0;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px;
+}
+
+nav ul li ul li:hover > a {
+    background-color: #555;
+}
+
+#home a {
+    background-color: #4CAF50;
+}
+
+#schedule a {
+    background-color: #2196F3;
+}
+
+#emp-management a {
+    background-color: #f44336;
+}
+
+#emp-management ul {
+    min-width: 200px;
+}
+
+#emp-registration a {
+    background-color: #f44336;
+}
+
+#update-employee a {
+    background-color: #f44336;
+}
+
+#search-employees a {
+    background-color: #f44336;
+}
+
+#vacancy a {
+    background-color: #9C27B0;
+}
+
+#report a {
+    background-color: #FFC107;
+}
+
+#report ul {
+    min-width: 200px;
+}
+
+#write-report a {
+    background-color: #FFC107;
+}
+
+#generate-report a {
+    background-color: #FFC107;
+}
+
+#tools a {
+    background-color: #00BCD4;
+}
+
+#tools ul {
+    min-width: 200px;
+}
+
+#manage-department a {
+    background-color: #00BCD4;
+}
+
+#manage-position a {
+    background-color: #00BCD4;
+}
+
+#more a {
+    background-color: #607D8B;
+}
+
+#about-us a {
+    background-color: #607D8B;
+}
+
+#profile a {
+    background-color: #4CAF50;
+}
+
+#logout a {
+    background-color: #f44336;
+}
+
+#a1:hover {
+    background-color: #555;
+}
